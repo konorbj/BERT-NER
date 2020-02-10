@@ -18,7 +18,7 @@ from BERT-NER.bert import modeling
 from BERT-NER.bert import optimization
 from BERT-NER.bert import tokenization
 import tensorflow as tf
-import metrics
+import BERT-NER.metrics
 import numpy as np
 FLAGS = flags.FLAGS
 
