@@ -14,11 +14,11 @@ import collections
 import os
 import pickle
 from absl import flags,logging
-from BERT-NER.bert import modeling
-from BERT-NER.bert import optimization
-from BERT-NER.bert import tokenization
+from BERT_NER.bert import modeling
+from BERT_NER.bert import optimization
+from BERT_NER.bert import tokenization
 import tensorflow as tf
-import BERT-NER.metrics
+import BERT_NER.metrics
 import numpy as np
 FLAGS = flags.FLAGS
 
