@@ -18,4 +18,4 @@
     --output_dir=/content/gdrive/My Drive/Data
 
 
-perl conlleval.pl -d '\t' < ./output/result_dir/label_test.txt
+perl conlleval.pl -d '\t' < /content/gdrive/My Drive/Data/label_test.txt
