@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-  python ./NER/BERT_NER.py\
+  python BERT_NER.py\
     --task_name="NER"  \
     --do_lower_case=False \
     --crf=True \
@@ -18,4 +18,4 @@
     --output_dir=./output
 
 
-perl ./NER/conlleval.pl -d '\t' < ./output/labels_test.txt
+perl conlleval.pl -d '\t' < ./output/result_dir/labels_test.txt
