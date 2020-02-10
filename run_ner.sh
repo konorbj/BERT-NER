@@ -15,7 +15,7 @@
     --train_batch_size=32   \
     --learning_rate=2e-5   \
     --num_train_epochs=4.0   \
-    --output_dir=/content/gdrive/My Drive/Data
+    --output_dir=../output
 
 
-perl conlleval.pl -d '\t' < /content/gdrive/My Drive/Data/label_test.txt
+perl conlleval.pl -d '\t' < ../output/labels_test.txt
