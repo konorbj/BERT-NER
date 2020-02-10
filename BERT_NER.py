@@ -5,6 +5,8 @@
 # Copyright 2019 The BioNLP-HZAU Kaiyin Zhou
 # Time:2019/04/08
 """
+import sys
+sys.path.append('/content/NER')
 
 from __future__ import absolute_import
 from __future__ import division
